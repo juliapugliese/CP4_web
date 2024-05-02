@@ -8,9 +8,15 @@ const Navbar = () =>  {
             <div>
                 <ImgL src="./logo.png" alt="" link=""/>
                 <ul>
-                    <li><a href="">Categorias</a></li>
+                    <li><a href="">Produtos</a></li>
+                    <li><a href="">Papelaria artesanal</a></li>
+                    <li><a href="">Sobre</a></li>
                 </ul>
-                <img src="./search.svg" alt="" />
+                <div className="pesquisa">
+                    <input type="text" />
+                    <img src="./search.svg" alt="" />
+                </div>
+                
             </div>
             <div>
 

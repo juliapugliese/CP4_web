@@ -1,18 +1,12 @@
 
-
 .produto {
-    border-width: 1px; 
-    border-style: solid; 
-    border-color: var(--main-color); 
-    border-radius: 0.5rem;
-    /* background-color: white; */
-
-
-    width: 11rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 1.5rem 1.7rem;
+    width: 17rem;
+    min-width: 15rem;
+    box-shadow: 0.5rem 0.3rem 1rem rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    border-radius: 1.3rem;
 
 
 }
@@ -35,7 +29,7 @@
 .produto > p{
     width: 85%;
 
-    color: var(--main-color);
+    color: var(--dark);
     text-align: center;
     margin-top: 0.5rem;
     font-size: 15px;

@@ -4,19 +4,34 @@
     justify-content: space-between;
     padding: 10px 2rem;
     align-items: center;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 400;
     font-family: system-ui;
-    background-color: var(--light);
+    background-color: burlywood;
 }
 .navbar :first-child{
     display: flex;
     flex-direction: row;
     column-gap: 2rem;
 }
+.navbar :first-child .pesquisa{
+    display: flex;
+    align-items: center;
+}
+.navbar :first-child .pesquisa input{
+    border-radius: 3rem 0 0 3rem;
+    padding: 10px 20px;
+    border-style: none;
+}
+.navbar :first-child .pesquisa img{
+    border-radius: 0 3rem 3rem 0;
+    padding: 6px 20px;
+    background-color: var(--light);
+}
+
 
 .navbar :first-child > img {
-    max-width: 90px;
+    max-width: 140px;
 }
 .navbar :first-child > ul{
     display: flex;
@@ -38,7 +53,7 @@
     padding: 10px 19px;
     border-radius: 25px;
     background-color: var(--main-color);
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 500;
     font-family: system-ui;
     
