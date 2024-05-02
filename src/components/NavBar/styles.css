@@ -7,7 +7,7 @@
     font-size: 15px;
     font-weight: 400;
     font-family: system-ui;
-    background-color: white;
+    background-color: var(--light);
 }
 .navbar :first-child{
     display: flex;
@@ -37,7 +37,7 @@
     border: none;
     padding: 10px 19px;
     border-radius: 25px;
-    background-color: whitesmoke;
+    background-color: var(--main-color);
     font-size: 13px;
     font-weight: 500;
     font-family: system-ui;

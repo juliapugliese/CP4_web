@@ -4,7 +4,7 @@ import ImgL from "../Img-link";
 
 const Navbar = () =>  {
     return(
-        <div className="navbar">
+        <header className="navbar">
             <div>
                 <ImgL src="./logo.png" alt="" link=""/>
                 <ul>
@@ -22,7 +22,7 @@ const Navbar = () =>  {
                     <a href="">Inscreva-se</a>
                 </button>
             </div>
-        </div>
+        </header>
     );
 }
 export default Navbar;
