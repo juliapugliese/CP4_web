@@ -16,7 +16,7 @@
 }
 
 .navbar :first-child > img {
-    max-width: 75px;
+    max-width: 90px;
 }
 .navbar :first-child > ul{
     display: flex;
