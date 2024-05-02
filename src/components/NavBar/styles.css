@@ -1,0 +1,49 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 2rem;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: system-ui;
+    background-color: white;
+}
+.navbar :first-child{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+}
+
+.navbar :first-child > img {
+    max-width: 75px;
+}
+.navbar :first-child > ul{
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+    list-style: none;
+}
+.navbar :first-child > ul li a{
+    text-decoration: none;
+}
+.navbar :nth-child(2){
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+}
+
+.navbar :nth-child(2) button{
+    border: none;
+    padding: 10px 19px;
+    border-radius: 25px;
+    background-color: whitesmoke;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: system-ui;
+    
+}
+
+.navbar :nth-child(2) button a {
+    text-decoration: none;
+}
