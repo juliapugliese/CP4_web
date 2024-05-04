@@ -1,11 +1,12 @@
 import { Props } from "./interfaces";
+import "./styles.css"
 
 const FormInput = (props: Props) => {
   return (
-    <div className="flex flex-col my-3">
-      <label className="font-bold">{props.label}</label>
+    <div className="form-input">
+      <label>{props.label}</label>
       <input
-        className="border py-2 bg-gray-100"
+        className={props.inputclassname}
         type="text"
         value={props.value}
         onChange={props.onChange}

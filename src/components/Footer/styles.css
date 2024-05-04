@@ -9,12 +9,17 @@ footer {
     gap: 40px;
     text-align: left;
     background-position: right;
+    color: var(--light);
+    font-family: system-ui;
+    flex-wrap: wrap;
+    background-color: var(--company-color);
+
 }
 
 footer .redes-sociais-grupo > ul {
     display: flex;
     flex-direction: row;
-    gap: 8px;
+    gap: 15px;
     align-items: center;
 }
 
@@ -70,9 +75,6 @@ footer .baixe-nosso-app {
     flex-direction: column;
 }
 
-footer .baixe-nosso-app > p{
-    color: var(--nav-bar-text-color);
-}
 
 
 footer .baixe-nosso-app > ul img {
@@ -88,25 +90,12 @@ footer > img{
 @media screen and (max-width: 785px) {
     footer{
         flex-wrap: wrap;
-        padding: 45% 10% 0 10%;
-    }
-}
-
-@media screen and (max-width: 732px) {
-    footer{
-        padding-top: 70%;
-    }
-}
-
-@media screen and (max-width: 660px) {
-    footer{
-        padding-top: 85%;
+        padding: 8% 10% 0 10%;
     }
 }
 
 @media screen and (max-width: 510px) {
     footer{
-        padding-top: 150%;
         text-align: center;
         justify-content: center;
     }

@@ -2,11 +2,12 @@
     min-width: 7rem;
 }
   
-.footerItem p {
+.footerItem p, footer .baixe-nosso-app > p {
     width: auto;
     object-fit: contain;
-    font-size: 14px;
-    color: var(--nav-bar-text-color);    
+    font-size: 15.5px;
+    font-weight: 600;
+    color: var(--nav-bar-text-color);
     margin-bottom: 1.5rem;
 }
 

@@ -56,12 +56,24 @@ export function Footer() {
           <LinkFooter link="" text="juju@jujubooks.com.br"/>
         </FooterItem>
 
-       
-        
       </div>
 
       <div>
-      <FooterItem title="Dev Team">
+        <FooterItem title="Atendimento">
+          <LinkFooter link="" text="Política de Vendas"/>
+          <LinkFooter link="" text="Trocas e Privacidade"/>
+          <LinkFooter link="" text="Termos e Condições de Compra"/>
+          <LinkFooter link="./contato" text="Contato"/>
+
+        </FooterItem>
+      </div>
+
+      <div>
+        <FooterItem title="Institucional">
+          <LinkFooter link="./sobre" text="Sobre a Jujubooks"/>
+        </FooterItem>
+
+        <FooterItem title="Dev Team">
           <LinkFooter link="https://www.linkedin.com/in/julia-pugliese" text="Julia Gonzalez Pugliese Ribeiro - 553427"/>
         </FooterItem>
       </div>

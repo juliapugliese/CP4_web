@@ -1,0 +1,31 @@
+.form-input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.form-input input{
+    width: 20rem;
+    height: 2rem;
+}
+.form-input label{
+    font-family: system-ui;
+}
+
+.form-input .mensagem{
+    width: 30rem;
+    height: 8rem;
+}
+
+
+@media (max-width: 680px) {
+    .form-input .mensagem{
+        width: 15rem;
+        height: 8rem;
+    }
+    .form-input input{
+        width: 10rem;
+        height: 2rem;
+    }
+    
+}

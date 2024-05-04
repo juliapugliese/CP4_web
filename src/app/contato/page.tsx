@@ -1,4 +1,5 @@
 "use client";
+import "./styles.css"
 import { useState } from "react";
 import FormButton from "@/components/FormButton";
 import FormInput from "@/components/FormInput";
@@ -6,9 +7,9 @@ import FormInput from "@/components/FormInput";
 const Contact = () => {
   const [form, setForm] = useState({
     name: "",
-    address: "",
+    email: "",
     phone: "",
-    cep: "",
+    comment: "",
   });
 
   const sendForm = () => {
@@ -23,39 +24,42 @@ const Contact = () => {
   };
 
   return (
-    <section className="m-4">
-      <header>
-        <h1 className="text-4xl">Formulário de contato</h1>
-      </header>
-      <FormInput
-        label="Nome"
-        value={form.name}
-        onChange={(event: any) => {
-          changeState("name", event.target.value);
-        }}
-      />
-      <FormInput
-        label="Endereço"
-        value={form.address}
-        onChange={(event: any) => {
-          changeState("address", event.target.value);
-        }}
-      />
-      <FormInput
-        label="Telefone"
-        value={form.phone}
-        onChange={(event: any) => {
-          changeState("phone", event.target.value);
-        }}
-      />
-      <FormInput
-        label="CEP"
-        value={form.cep}
-        onChange={(event: any) => {
-          changeState("cep", event.target.value);
-        }}
-      />
-      <FormButton text="Enviar" onClick={sendForm} />
+    <section className="formulario">
+      <h2>Contato</h2>
+
+      <div>
+        <FormInput
+          label="Nome"
+          value={form.name}
+          onChange={(event: any) => {
+            changeState("name", event.target.value);
+          }}
+        />
+        <FormInput
+          label="Email"
+          value={form.email}
+          onChange={(event: any) => {
+            changeState("email", event.target.value);
+          }}
+        />
+        <FormInput
+          label="Telefone"
+          value={form.phone}
+          onChange={(event: any) => {
+            changeState("phone", event.target.value);
+          }}
+        />
+        <FormInput
+        inputclassname="mensagem"
+          label="Mensagem"
+          value={form.comment}
+          onChange={(event: any) => {
+            changeState("comment", event.target.value);
+          }}
+        />
+        <FormButton text="Enviar" onClick={sendForm} />
+      </div>
+      
 
     </section>
   );

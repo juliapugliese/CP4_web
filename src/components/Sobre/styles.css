@@ -1,24 +1,14 @@
 
 
-
-
-.section4 > div > :nth-child(2){
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    grid-gap: 20px;
-    
-}
-
-.section4{
-    padding: 4rem 12% 8rem 12%;
+.sobre{
+    padding: 10rem 12% 8rem 12%;
     background-color: var(--light);
 }
 
 
 
 
-.section4 > div > h2{
+.sobre > div > h2{
     color: var(--company-color);
     font-size: 25px;
     text-transform: uppercase;
@@ -32,14 +22,11 @@
 
 
 @media screen and (max-width: 1080px) {
-    .section4{
+    .sobre{
         justify-content: center;
     }
-    .section4 > img{
-        display: none;
-    }
 
-    .section4 > div {
+    .sobre > div {
         margin-right: 0;
     }
 }

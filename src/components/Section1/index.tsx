@@ -4,12 +4,8 @@ import Produto from "../Produto";
 
 const Section1 = (props : Props) =>  {
     return(
-        <div className="">
-            <Produto 
-            title="Café com Deus pai"
-            image="/cafe.webp"
-            link="https://www.saraiva.com.br/cafe-com-deus-pai/p"
-            ></Produto>
+        <div className="section1">
+            <img src="carrossel1.webp" alt="" />
 
         </div>
     );
