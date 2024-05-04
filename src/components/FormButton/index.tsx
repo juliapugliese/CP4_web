@@ -1,6 +1,6 @@
 import { Props } from "./interfaces";
 
-const Button = (props: Props) => {
+const FormButton = (props: Props) => {
   return (
     <button
       className="px-6 py-2 bg-slate-800 text-white"
@@ -11,4 +11,4 @@ const Button = (props: Props) => {
   );
 };
 
-export default Button;
+export default FormButton;

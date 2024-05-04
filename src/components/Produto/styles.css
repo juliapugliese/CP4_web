@@ -1,36 +1,53 @@
 
 .produto {
-    box-sizing: border-box;
+    /* box-sizing: border-box;
     padding: 1.5rem 1.7rem;
     width: 17rem;
     min-width: 15rem;
     box-shadow: 0.5rem 0.3rem 1rem rgba(0, 0, 0, 0.2);
     background-color: #ffffff;
     border-radius: 1.3rem;
+    text-align: center; */
 
+
+    box-sizing: border-box;
+    padding: 1.5rem 1.2rem;
+    width: 13rem;
+    min-width: 11rem;
+    border-radius: 1.3rem;
+    text-align: center;
 
 }
 
 .produto > button{   
-    border-radius: 0 0 0.5rem 0.5rem;
-    background-color: var(--main-color);
-    width: 100%;
+    border-radius: 0.5rem;
+    border-color: #d6d6d6;
+    background-color: unset;
+    padding: 8px 16px;
     color: var(--dark);
+    margin-top: 18px;
     
 }
 
+.produto > button a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
 .produto > img{
-    height: 12rem;
-    width: 9rem;
+    width: 100%;
     object-fit: cover;
-    margin: 0.5rem 1rem 2rem 1rem;
 }
 
 .produto > p{
-    width: 85%;
-
     color: var(--dark);
-    text-align: center;
     margin-top: 0.5rem;
-    font-size: 15px;
+    font-size: 16px;
+    font-family: system-ui;
+
+}
+
+.produto > .preco{
+    color: var(--preco-positivo);
+    font-size: 25px;
 }

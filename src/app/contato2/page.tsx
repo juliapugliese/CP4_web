@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import Button from "@/components/Button";
+import FormButton from "@/components/FormButton";
 import FormInput from "@/components/FormInput";
 
 const Contact = () => {
@@ -43,9 +43,9 @@ const Contact = () => {
       <FormInput label="Endereço" value={address} onChange={changeAddress} />
       <FormInput label="Telefone" value={phone} onChange={changePhone} />
       <FormInput label="CEP" value={cep} onChange={changeCep} />
-      <footer>
-        <Button text="Enviar" onClick={sendForm} />
-      </footer>
+
+      <FormButton text="Enviar" onClick={sendForm} />
+
     </section>
   );
 };

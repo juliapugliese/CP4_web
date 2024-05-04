@@ -1,0 +1,45 @@
+
+
+
+
+.section4 > div > :nth-child(2){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.section4{
+    padding: 7rem 6% 8rem 6%;
+    background-color: var(--light);
+    margin-top: 2rem;
+
+}
+
+
+
+
+.section4 > div > h2{
+    color: var(--company-color);
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: system-ui;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+
+
+@media screen and (max-width: 1080px) {
+    .section4{
+        justify-content: center;
+    }
+    .section4 > img{
+        display: none;
+    }
+
+    .section4 > div {
+        margin-right: 0;
+    }
+}

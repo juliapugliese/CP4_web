@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import Button from "@/components/Button";
+import FormButton from "@/components/FormButton";
 import FormInput from "@/components/FormInput";
 
 const Contact = () => {
@@ -55,9 +55,8 @@ const Contact = () => {
           changeState("cep", event.target.value);
         }}
       />
-      <footer>
-        <Button text="Enviar" onClick={sendForm} />
-      </footer>
+      <FormButton text="Enviar" onClick={sendForm} />
+
     </section>
   );
 };
